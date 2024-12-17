@@ -2,6 +2,8 @@
 
 * A project inspired by the Hello Neighbor Alphas.
 
+* Mainly made as a way to test out Unreal Engine.
+
 
 ### Progress: 1%
 
