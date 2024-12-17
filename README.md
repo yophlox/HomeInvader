@@ -6,7 +6,7 @@
 ### Progress: 1%
 
 * 12/16/2024 - Created the project and made the initial the FPSController.
-
+* 12/16/2024 - Changed the FPSController a bit to fit the game.
 
 ### About the game
 
