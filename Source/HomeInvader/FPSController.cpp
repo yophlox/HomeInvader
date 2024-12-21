@@ -1,12 +1,9 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
+// Copyright YoPhlox. All Rights Reserved.
 
 #include "FPSController.h"
 
-// Sets default values
 AFPSController::AFPSController()
 {
- 	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
 	AutoPossessPlayer = EAutoReceiveInput::Player0;
@@ -26,14 +23,12 @@ AFPSController::AFPSController()
 
 }
 
-// Called when the game starts or when spawned
 void AFPSController::BeginPlay()
 {
 	Super::BeginPlay();
 	InitialCameraLocation = cam->GetRelativeLocation();
 }
 
-// Called every frame
 void AFPSController::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
@@ -84,7 +79,6 @@ void AFPSController::Tick(float DeltaTime)
 	}
 }
 
-// Called to bind functionality to input
 void AFPSController::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
