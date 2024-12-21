@@ -10,6 +10,7 @@
 * 12/16/2024 - Created the project and made the initial the FPSController.
 * 12/16/2024 - Changed the FPSController a bit to fit the game.
 * 12/20/2024 - Made a work in progress AI that can patrol and chase the player.
+* 12/21/2024 - Neighbor Materials Fix, and retargeted the anims to work with the new skeleton mesh.
 
 # Credits
 
